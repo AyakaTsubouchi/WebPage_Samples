@@ -1,0 +1,126 @@
+/* Use CSS to color the <div> elements with different colours (you can pick a color palette from here https://www.w3schools.com/colors/colors_palettes.asp)
+
+ */
+*{
+    margin: 0px;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #618685;
+    padding-top: 100px;
+}
+h2{
+    padding-top: 100px;
+    color: #618685;
+}
+body{
+   
+    background-color: #d5f4e6;
+    color: #567876;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color:#fefbd8;
+    padding: 20px;
+}
+nav .title{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #80ced6;
+}
+a:link{
+    text-decoration: none;
+}
+nav button{
+    margin: 0px 30px 0px 0px;
+    font-size: 20px;
+    float: right;
+    color: #618685;
+    background-color: #fefbd8;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav button:hover{
+    background-color: #80ced6;
+}
+nav button:active{    background-color: #fefbd8;
+}
+
+.contents{
+    margin: 20px auto;
+    
+}
+
+.clear {
+    clear: both;
+}
+.main {
+    
+    padding-top: 30px;
+    width: 80%;
+    margin: 90px auto;
+}
+.paw{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+
+    width: 70px;
+    
+}
+.member img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    border: solid 0.5px black;
+    margin: 10px 0px 10px 30px;
+}
+
+.members{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.member{
+    float: left;
+    
+}
+.member ul{
+    overflow: auto;
+    width: 150px;
+    height: 50px; 
+    word-wrap: break-word;
+   
+}
+.contents.lorem p{
+    overflow: auto;
+    height: 100px; 
+    word-wrap: break-word;
+    border: 1px dotted black;
+    
+
+}
+
+.bottom{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #d5f4e6;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.bottom p{
+    text-decoration: none;
+    color: #618685;
+    padding-left: 8px;
+}
+footer{
+    widows: 100%;
+    text-align: center;
+}
