@@ -1,0 +1,144 @@
+/* Use CSS to color the <div> elements with different colours (you can pick a color palette from here https://www.w3schools.com/colors/colors_palettes.asp)
+*/
+
+/* Use CSS to define the heights and width of your <div> elements accordingly. */
+/* Use CSS to style borders around your <div> elements as you like. */
+
+
+
+h1 {
+    text-align: center;
+}
+.showcase {
+    width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid rgb(101, 24, 24);
+    background-color: rgb(0, 0, 0);
+}
+.squares {
+    width: 500px;
+    margin: 0 auto;
+} 
+.square {
+    color: rgb(185, 238, 25);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    float: left;
+    margin: 30px;
+    border: 3px solid yellowgreen;
+}
+/* Use CSS to change mouse cursor to ‘pointer’ on hovering <div> squares. */
+/* Use CSS to add hover effects to your <div> squares. */
+.square:hover {
+    cursor: pointer;
+    background-color: rgb(249, 249, 6);
+}
+.clear{
+    clear: both;
+}
+/* Use CSS to move your first square along the X-axis for 50px on hover. */
+.s1 img{
+    width: 100px;
+    height: 100px;
+    transition: height 1s;
+}
+
+.s1 img:hover {
+    height: 150px;
+}
+/* Use CSS to double the scale of your second square on hover. */
+.s2 {
+    transition: width 1s,height 1s;
+}
+.s2:hover{
+    width: 200px;
+    height: 200px;
+    background-image: url("images/dracula\ \(1\).png");
+}
+/* Use CSS to rotate your third square along the X-axis for 180deg on hover.  */
+.s3 {
+    transition-duration: 1s;
+    
+}
+p{
+    margin-top: 40px;
+}
+.s3:hover{
+    background-image: url("images/ghost.png") ;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    transform: rotateX(180deg);
+}
+/* Use CSS to rotate your fourth square along the Z-axis for 180deg on hover. */
+.s4 {
+    transition-duration: 1s;
+}
+.s4:hover{
+    transform: rotateZ(180deg);
+}
+/* Use CSS to skew your fifth square along the Y-axis for 90deg on hover. */
+.s5 {
+    transition-duration: 1s;
+}
+.s5:hover {
+    transform:skewY(90deg)
+}
+/* Use CSS to change the color of your sixth square from a warm color to a cold color on hover (duration: 1s). */
+.s6 {
+    background-color: coral;
+    transition-duration: 1s;
+}
+.s6:hover{
+    background-color: rgb(141, 240, 240);
+}
+/* Use CSS to animate your seventh square to move from 20px to 700px along the X axis.  (use @keyframes). */
+.s7 {
+   position: relative;
+   
+   
+}
+.s7:hover{
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {left:2px;}
+    to {left: 1000px;
+    }
+  }
+
+/* Do whatever you like with the last 2 squares. */ 
+.s6 p,.s7 p,.s8 p{
+    margin-top: 10px;
+}
+.s8:hover{
+    animation-name: example1;
+    animation-duration: 4s;
+}
+@keyframes example1 {
+    from {letter-spacing:20px;}
+    to {letter-spacing: 700px;
+    }
+  }
+
+.s9:hover{
+    animation-name: example2;
+    animation-duration: 4s;
+}
+@keyframes example2 {
+    0%   {background-color: black;}
+    20%  {background-color: pink;}
+    50% {background-color: aquamarine;}
+    75%   {background-color: yellow;}
+    100%  {background-color: black;}
+    }
+
+footer{
+    color: black;
+    position: fixed;
+    bottom: 20px;
+}
